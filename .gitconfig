@@ -1,0 +1,31 @@
+[gui]
+	recentrepo = E:/Users/HS/Documents/Visual Studio 2015/Test
+[core]
+	excludesfile = E:\\Users\\HS\\Documents\\gitignore_global.txt
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' \"$LOCAL\" \"$REMOTE\"
+
+[user]
+	name = H/S
+	email = kidoairakusyunkasyuutou@gmail.com
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' -r -e -u $REMOTE $LOCAL
+	trustExitCode = true
+
+[diff]
+	tool = sourcetree
+[merge]
+	tool = sourcetree
+[mergetool]
+	prompt = true
+[mergetool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
+	trustexitcode = true
+[mergetool "vsdiffmerge"]
+	keepbackup = false
+[difftool]
+	prompt = true
+[difftool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
+[difftool "vsdiffmerge"]
+	keepbackup = false
