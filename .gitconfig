@@ -1,0 +1,20 @@
+[core]
+	excludesfile = E:\\Users\\Documents\\gitignore_global.txt
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' \"$LOCAL\" \"$REMOTE\"
+
+[user]
+	name = user
+	email = hoge@hoge.com
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' -r -e -u \"$REMOTE\" \"$LOCAL\"
+	trustExitCode = true
+
+[diff]
+	tool = sourcetree
+[merge]
+	tool = sourcetree
+[mergetool]
+	prompt = true
+[difftool]
+	prompt = true
